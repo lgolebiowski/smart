@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+.image {
+  padding-top: 25px;  
+  background: linear-gradient(rgba(0, 0, 255, 0.45), rgba(255, 0, 0, 0.45), transparent), url(./images/star-small.png) no-repeat center; 
+}
+.inputField {
+  margin-top: 20px;
+}
+.slider input {
+  height: 10px;
+  background-color: #000;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .inputField input {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid black;
+    height: 20px;
+    width: 60px;
+    }
+  .slider input {
+    height: 10px;
+    background-color: #000;
+    margin-top: 20px;
+    }
+  }
